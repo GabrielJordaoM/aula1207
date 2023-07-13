@@ -5,7 +5,7 @@ until count > 5
     puts count
     count += 1
     raise if count ==3
-    rescur
+  rescue
     numero =1
         retry
     end 
